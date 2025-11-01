@@ -1,130 +1,153 @@
 <!--
-README профиля GitHub для @Norsaje.
-Содержит: анимированный баннер, бейджи, стек, проекты, динамическую статистику,
-трофеи, граф активности и подсказки для "змейки" контрибуций (опционально).
-Все внешние сервисы используются только как изображения — код в профиле не исполняется.
+Profile README for @Norsaje
+All dynamic widgets are image-only (safe for README). Optional GitHub Actions blocks are provided inline as comments.
 -->
 
-<!-- ====== HEADER BANNER ====== -->
+<!-- ====== HEADER (Capsule Render) ====== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:7F7FD5,50:86A8E7,100:91EAE4&text=Norsaje&fontAlign=50&fontAlignY=38&desc=ML%20Engineer%20·%20C%2B%2B%20%7C%20Python%20%7C%20CV%20%7C%20LLMs&descAlign=50&descAlignY=62&animation=fadeIn" alt="Norsaje header" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:7F7FD5,50:86A8E7,100:91EAE4&text=Kirill%20Zinchenko%20%28Norsaje%29&fontAlign=50&fontAlignY=36&desc=ML%20Engineer%20%7C%20C%2B%2B%20%26%20Python%20%7C%20CV%20%26%20LLMs&descAlign=50&descAlignY=62&animation=fadeIn"
+    alt="Header"
+  />
 </p>
 
-<!-- ====== INTRO ====== -->
-<h2 align="center">Привет! Я Кирилл (Norsaje) 👋</h2>
+<!-- Language toggle (manual) -->
 <p align="center">
-  ML-инженер-энтузиаст: C++/Python, классика ML и DL, компьютерное зрение, инженерные пайплайны и продакшен-оптимизация.<br/>
-  Люблю быстрые и аккуратные решения: Docker, CI/CD, воспроизводимость, профилирование, низкоуровневая оптимизация.
+  <sub>Language: <b>EN</b> · <a href="./README_ru.md">RU</a></sub>
+</p>
+
+<!-- ====== QUICK INTRO ====== -->
+<h2 align="center">Hey — I'm Kirill.</h2>
+
+<p align="center">
+I build fast, production-grade ML systems. C++ when I need raw speed, Python when I need to ship yesterday.
+I care about clean data, tight loops, and reproducible deploys. If there’s a millisecond to shave — I’ll find it.
 </p>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=Norsaje&style=for-the-badge&color=0e75b6" target="_blank"><img src="https://komarev.com/ghpvc/?username=Norsaje&style=for-the-badge&color=0e75b6" alt="profile views"/></a>
-  <a href="https://github.com/Norsaje?tab=followers" target="_blank"><img src="https://img.shields.io/github/followers/Norsaje?logo=github&style=for-the-badge" alt="followers"/></a>
-  <a href="https://orvune.tech" target="_blank"><img src="https://img.shields.io/badge/website-orvune.tech-222?style=for-the-badge&logo=vercel" alt="website"/></a>
+  <a href="https://orvune.tech" target="_blank">
+    <img src="https://img.shields.io/badge/website-orvune.tech-111?style=for-the-badge&logo=vercel" alt="website" />
+  </a>
+  <a href="mailto:hi@orvune.tech">
+    <img src="https://img.shields.io/badge/email-hi@orvune.tech-111?style=for-the-badge&logo=gmail" alt="email" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Norsaje&style=for-the-badge&color=0e75b6" alt="views"/>
 </p>
 
-<!-- ====== QUICK ABOUT ====== -->
-<details open>
-  <summary><b>Обо мне</b></summary>
+<!-- Typing banner -->
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=800&lines=Shipping+ML+that+actually+runs+in+prod;C%2B%2B+for+latency%2C+Python+for+velocity;Computer+Vision+%26+LLMs;Docker%2C+CI%2FCD%2C+offline+reproducibility" alt="typing" />
+  </a>
+</p>
 
-- ⚙️ Оптимизирую инференс и пайплайны: профилирование, векторизация, кэширование, батчинг, квантование.
-- 🧪 Исследую CV/LLM: data-centric подход, чистые эксперименты, метрики и трекинг.
-- 🧰 Любимые инструменты: Docker · GitHub Actions · OpenCV · PyTorch · scikit-learn · FastAPI.
-- 🎯 Сейчас: рефакторинг рабочих шаблонов ML-проектов, C++/Python бриджи, офлайн-доставка моделей.
-</details>
+<!-- ====== WHAT I DO ====== -->
+### What I do
+- **ML systems**: CV + LLMs, data-centric pipelines, robust eval, and guardrails.
+- **Performance**: quantization, batching, vectorization, cache-friendly layouts, profiler-driven fixes.
+- **Infra**: Docker, GitHub Actions, sleek FastAPI services, zero-surprise deploys.
 
-<!-- ====== TECH STACK (ICONS) ====== -->
-<h3>Стек</h3>
-
+<!-- ====== TECH (DEVICONS) ====== -->
+### Tech I reach for
 <p>
   <!-- Languages -->
-  <img alt="C++" title="C++" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"/>
-  <img alt="Python" title="Python" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
-  <img alt="Bash" title="Bash" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"/>
-  <!-- ML / DL -->
-  <img alt="PyTorch" title="PyTorch" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"/>
-  <img alt="scikit-learn" title="scikit-learn" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"/>
-  <img alt="OpenCV" title="OpenCV" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"/>
-  <!-- Data / Serving -->
-  <img alt="FastAPI" title="FastAPI" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"/>
-  <img alt="Docker" title="Docker" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
-  <img alt="Nginx" title="Nginx" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"/>
+  <img title="C++" alt="C++" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"/>
+  <img title="Python" alt="Python" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+  <img title="Bash" alt="Bash" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"/>
+  <!-- ML/DL -->
+  <img title="PyTorch" alt="PyTorch" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"/>
+  <img title="scikit-learn" alt="scikit-learn" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"/>
+  <img title="OpenCV" alt="OpenCV" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"/>
+  <!-- Serving/Infra -->
+  <img title="FastAPI" alt="FastAPI" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"/>
+  <img title="Docker" alt="Docker" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
+  <img title="NGINX" alt="Nginx" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"/>
   <!-- Tooling -->
-  <img alt="Git" title="Git" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
-  <img alt="Linux" title="Linux" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
-  <img alt="VSCode" title="VS Code" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
+  <img title="Git" alt="Git" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
+  <img title="Linux" alt="Linux" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
+  <img title="VS Code" alt="VS Code" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
 </p>
 
-<!-- ====== STATS CARDS ====== -->
-<h3>Статистика</h3>
+<!-- ====== HIGHLIGHTS ====== -->
+### Highlights
+- Realtime gesture/vision experiments and LLM tooling — designed for **offline** reproducibility.
+- I like code that **explains itself**: simple interfaces, strong tests, pragmatic docs.
+- Favorite PR comment: _“How did this get 2× faster with fewer lines?”_ — profiling + restraint.
+
+<!-- ====== GITHUB CARDS ====== -->
+### Stats that matter
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=Norsaje&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=radical" alt="stats"/>
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Norsaje&layout=compact&langs_count=10&hide_title=true&theme=radical" alt="top-langs"/>
+  </a>
+</p>
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=Norsaje&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=radical" alt="GitHub stats"/>
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Norsaje&layout=compact&langs_count=10&hide_title=true&theme=radical" alt="Top languages"/>
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img height="170" src="https://streak-stats.demolab.com?user=Norsaje&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="streak"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats" target="_blank">
-    <img height="165" src="https://streak-stats.demolab.com?user=Norsaje&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Norsaje&theme=dracula&no-frame=true&no-bg=true&row=1&column=7" alt="trophies"/>
   </a>
 </p>
 
+<!-- Activity Graph -->
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank">
-    <img src="https://github-profile-trophy.vercel.app/?username=Norsaje&theme=dracula&no-frame=true&no-bg=true&row=1&column=7" alt="trophy"/>
+  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Norsaje&theme=react-dark&hide_border=true&radius=8" alt="activity graph"/>
   </a>
 </p>
 
-<!-- ====== PROJECTS (PINNED) ====== -->
-<h3>Избранные проекты</h3>
-
+<!-- ====== PINNED PROJECTS ====== -->
+### Selected projects
 <p align="center">
   <a href="https://github.com/Norsaje/CNN">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Norsaje&repo=CNN&theme=radical" alt="CNN repo card"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Norsaje&repo=CNN&theme=radical" alt="CNN"/>
   </a>
   <a href="https://github.com/Norsaje/CNN_Food_classifier">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Norsaje&repo=CNN_Food_classifier&theme=radical" alt="CNN_Food_classifier repo card"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Norsaje&repo=CNN_Food_classifier&theme=radical" alt="CNN_Food_classifier"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/Norsaje/Secure_chatbot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Norsaje&repo=Secure_chatbot&theme=radical" alt="Secure_chatbot repo card"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Norsaje&repo=Secure_chatbot&theme=radical" alt="Secure_chatbot"/>
   </a>
   <a href="https://github.com/Norsaje/Celerity">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Norsaje&repo=Celerity&theme=radical" alt="Celerity repo card"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Norsaje&repo=Celerity&theme=radical" alt="Celerity"/>
   </a>
 </p>
 
-<!-- ====== ACTIVITY GRAPH ====== -->
-<h3>Граф активности</h3>
+<!-- ====== CONTACT ====== -->
+### Contact
+- 🌐 Website: <a href="https://orvune.tech" target="_blank">orvune.tech</a>  
+- 💬 For collabs or questions — open an Issue in any repo, I’m quick to reply.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Norsaje&theme=react-dark&hide_border=true&radius=8" alt="activity graph"/>
-</p>
+<!-- ====== OPTIONAL FANCY EXTRAS ====== -->
 
-<!-- ====== CONTACTS ====== -->
-<h3>Контакты</h3>
-
-- 🌐 Сайт: <a href="https://orvune.tech" target="_blank">orvune.tech</a>  
-- 💬 Пишите в Issues любого репозитория — отвечаю быстро.
-
-<!-- ====== OPTIONAL: SNAKE (requires GitHub Action) ====== -->
+<!-- Contribution "snake" (requires a workflow to render images daily) -->
 <!--
-Чтобы добавить "змейку" контрибуций:
-1) Создай workflow .github/workflows/snake.yml с экшеном Platane/snk (или аналог).
-2) Публикуй артефакт в ветку `output`.
-3) Сними комментарий с блока ниже.
+Add .github/workflows/snake.yml with Platane/snk action, then expose files from /dist.
+Docs: https://github.com/Platane/snk
+After it runs once, un-comment the picture block below.
 
 <p align="center">
-  <img src="https://github.com/Norsaje/Norsaje/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
-</p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake.svg" />
+  </picture>
 -->
+  
+<!-- lowlighter/metrics (full infographics panel, runs via GitHub Action). See repo for templates/plugins. -->
+<!-- https://github.com/lowlighter/metrics -->
 
-<!-- ====== FOOTER BANNER ====== -->
+<!-- ====== FOOTER (Capsule Render) ====== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:7F7FD5,50:86A8E7,100:91EAE4"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:7F7FD5,50:86A8E7,100:91EAE4" alt="footer"/>
 </p>
