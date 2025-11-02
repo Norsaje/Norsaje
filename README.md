@@ -3,12 +3,11 @@
 <!-- ===== LANGUAGE SWITCHER ===== -->
 <p align="center">
   <a href="./README.md"><img alt="English" src="https://img.shields.io/badge/English-EN-0b5fff?style=for-the-badge" /></a>
-  <a href="./README_ru.md"><img alt="Русская версия" src="https://img.shields.io/badge/Russian-RU-cc2b5e?style=for-the-badge" /></a>
+  <a href="./README_ru.md"><img alt="Русская версия" src="https://img.shields.io/badge/Русский-RU-cc2b5e?style=for-the-badge" /></a>
   <br/><sub>Switch language above</sub>
 </p>
 
 <!-- ===== DYNAMIC HERO (external, animated) ===== -->
-<!-- Dark/light served by <picture>. Capsule Render = dynamic header with gradients, animations, etc. -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
@@ -19,7 +18,7 @@
   </picture>
 </p>
 
-<!-- ===== TYPING STRIP (moving line) ===== -->
+<!-- ===== TYPING STRIP ===== -->
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&pause=1100&center=true&vCenter=true&width=920&lines=I+ship+ML+that+runs+in+prod;C%2B%2B+for+latency%2C+Python+for+velocity;Realtime+CV+%2B+LLMs%2C+offline+and+reproducible;Docker%2C+CI%2FCD%2C+clean+data" alt="typing" />
@@ -111,7 +110,7 @@ I build **fast** ML systems. Realtime CV and LLM tooling that behaves like produ
   </picture>
 </p>
 
-<!-- 3D Contributions (pick the style you like after first run) -->
+<!-- 3D Contributions -->
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib" />
 </p>
