@@ -100,6 +100,7 @@
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Norsaje&theme=react-dark&hide_border=true&radius=8" alt="activity graph"/>
   </a>
 </p>
+
 ## И еще
 <!-- 3D-календарь -->
 <p align="center">
