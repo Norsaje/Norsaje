@@ -45,7 +45,7 @@
 ## Мой стек
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,cmake,python,bash,linux,ubuntu,git,opencv,pytorch,sklearn,fastapi,nginx,docker,postgres,redis&perline=10" />
+    <img src="https://skillicons.dev/icons?i=cpp,cmake,python,bash,linux,azure,tensorflow,ai,kubernetes,ubuntu,git,opencv,pytorch,sklearn,fastapi,nginx,docker,postgres,redis&perline=10" />
   </a>
 </p>
 
@@ -93,29 +93,15 @@
   </a>
 </p>
 
+## Моя активность
 <!-- Граф активности -->
 <p align="center">
   <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Norsaje&theme=react-dark&hide_border=true&radius=8" alt="activity graph"/>
   </a>
 </p>
-
-<!-- ====== WOW-БЛОКИ (генерятся Actions) ====== -->
-<!-- Змейка -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake.svg" />
-  </picture>
-</p>
-
+## И еще
 <!-- 3D-календарь -->
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib" />
-</p>
-
-<!-- lowlighter/metrics — инфографика -->
-<p align="center">
-  <img src="./github-metrics.svg" alt="metrics" />
 </p>
