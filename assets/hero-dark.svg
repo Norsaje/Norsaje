@@ -1,0 +1,48 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7F7FD5" offset="0"></stop>
+      <stop stop-color="#86A8E7" offset="0.5"></stop>
+      <stop stop-color="#91EAE4" offset="1"></stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop stop-color="#86A8E7" stop-opacity="0.7" offset="0"></stop>
+      <stop stop-color="#0B1020" stop-opacity="0" offset="1"></stop>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"></feGaussianBlur>
+    </filter>
+    <style>
+      @keyframes float { from{transform:translateY(0)} 50%{transform:translateY(-8px)} to{transform:translateY(0)} }
+      .chip{animation:float 6s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0B1020"></rect>
+  <circle cx="1100" cy="80" r="240" fill="url(#glow)" filter="url(#soft)"></circle>
+
+  <!-- Waves -->
+  <path d="M0,300 C300,250 500,350 800,300 C1100,250 1300,360 1600,300 L1600,420 L0,420 Z" fill="url(#g)" opacity="0.25"></path>
+  <path d="M0,330 C300,280 500,380 800,330 C1100,280 1300,390 1600,330 L1600,420 L0,420 Z" fill="url(#g)" opacity="0.18"></path>
+  <path d="M0,360 C300,310 500,410 800,360 C1100,310 1300,420 1600,360 L1600,420 L0,420 Z" fill="url(#g)" opacity="0.12"></path>
+
+  <!-- Title -->
+  <g transform="translate(100,160)">
+    <text x="0" y="0" fill="white" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="56" font-weight="800">
+      Kirill Zinchenko · Norsaje
+    </text>
+    <text x="0" y="52" fill="url(#g)" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="28" font-weight="700">
+      ML Engineer · C++ · Python · Computer Vision · LLMs · Offline &amp; Reproducible
+    </text>
+  </g>
+
+  <!-- Floating chips (subtle, on brand) -->
+  <g class="chip" transform="translate(1320,150)">
+    <rect rx="10" ry="10" width="210" height="38" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"></rect>
+    <text x="14" y="25" fill="#D8E9FF" font-size="16" font-family="Inter, Segoe UI, sans-serif">Latency ↓  Quantization · SIMD · Cache</text>
+  </g>
+  <g class="chip" style="animation-delay:1.2s" transform="translate(1180,210)">
+    <rect rx="10" ry="10" width="240" height="38" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"></rect>
+    <text x="14" y="25" fill="#D8E9FF" font-size="16" font-family="Inter, Segoe UI, sans-serif">Docker · CI/CD · Profiling · Clean Data</text>
+  </g>
+</svg>
