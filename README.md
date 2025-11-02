@@ -45,7 +45,7 @@ I build **fast** ML systems. Realtime CV and LLM tooling that behaves like produ
 ## Tech I reach for
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,cmake,python,bash,linux,ubuntu,git,opencv,pytorch,sklearn,fastapi,nginx,docker,postgres,redis&perline=10" />
+    <img src="https://skillicons.dev/icons?i=cpp,cmake,python,bash,azure,ai,kubernetes,tensorflow,ubuntu,git,opencv,pytorch,sklearn,fastapi,nginx,docker,postgres,redis&perline=10" />
   </a>
 </p>
 
@@ -93,6 +93,7 @@ I build **fast** ML systems. Realtime CV and LLM tooling that behaves like produ
   </a>
 </p>
 
+## Activity
 <!-- Activity Graph -->
 <p align="center">
   <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
@@ -100,22 +101,9 @@ I build **fast** ML systems. Realtime CV and LLM tooling that behaves like produ
   </a>
 </p>
 
-<!-- ====== WOW BLOCKS (auto-rendered by Actions) ====== -->
-<!-- Contribution Snake -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Norsaje/Norsaje/output/github-snake.svg" />
-  </picture>
-</p>
-
+## My contributions
 <!-- 3D Contributions -->
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib" />
 </p>
 
-<!-- lowlighter/metrics mega-infographic -->
-<p align="center">
-  <img src="./github-metrics.svg" alt="metrics" />
-</p>
