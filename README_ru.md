@@ -11,10 +11,10 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="https://capsule-render.vercel.app/api?type=venom&height=280&color=timeGradient&section=header&text=%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%20Zinchenko%20%E2%80%94%20Norsaje&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20C%2B%2B%20%7C%20Python%20%7C%20CV%20%7C%20LLMs&descAlignY=60&descSize=19&animation=twinkling" />
+            srcset="https://capsule-render.vercel.app/api?type=venom&height=280&color=timeGradient&section=header&text=%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%20Зинченко%20%E2%80%94%20Norsaje&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20C%2B%2B%20%7C%20Python%20%7C%20CV%20%7C%20LLMs&descAlignY=60&descSize=19&animation=twinkling" />
     <source media="(prefers-color-scheme: light)"
-            srcset="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:36d1dc,100:5b86e5&section=header&text=%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%20Zinchenko%20%E2%80%94%20Norsaje&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20C%2B%2B%20%7C%20Python%20%7C%20CV%20%7C%20LLMs&descAlignY=60&descSize=19&animation=fadeIn" />
-    <img alt="Кирилл Зинченко — Инженер машинного обучения" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:36d1dc,100:5b86e5&section=header&text=%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%20Zinchenko%20%E2%80%94%20Norsaje&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20C%2B%2B%20%7C%20Python%20%7C%20CV%20%7C%20LLMs&descAlignY=60&descSize=19&animation=fadeIn" width="100%">
+            srcset="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:36d1dc,100:5b86e5&section=header&text=%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%20Зинченко%20%E2%80%94%20Norsaje&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20C%2B%2B%20%7C%20Python%20%7C%20CV%20%7C%20LLMs&descAlignY=60&descSize=19&animation=fadeIn" />
+    <img alt="Кирилл Зинченко — Инженер машинного обучения" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:36d1dc,100:5b86e5&section=header&text=%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%20Зинченко%20%E2%80%94%20Norsaje&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20C%2B%2B%20%7C%20Python%20%7C%20CV%20%7C%20LLMs&descAlignY=60&descSize=19&animation=fadeIn" width="100%">
   </picture>
 </p>
 
