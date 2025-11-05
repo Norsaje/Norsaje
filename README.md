@@ -38,7 +38,7 @@
 I build **fast** ML systems. Realtime CV and LLM tooling that behaves like production code from day one: **data-centric** experiments, good eval/guardrails, Docker-first, **offline-friendly**. If there’s a millisecond to save, I’ll find it.
 
 - Focus: real-time **gesture recognition / generation** (video **inside** UI), **hallucination-resistant** LLM workflows, and **optimization** challenges (VRP-style).
-- Philosophy: profile before “optimizing”, fewer lines → more speed, interfaces that explain themselves.
+- Philosophy: profile before optimizing, fewer lines - more speed, interfaces that explain themselves.
 
 ---
 
