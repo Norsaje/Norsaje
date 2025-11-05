@@ -27,7 +27,7 @@
 
 <!-- ===== ССЫЛКИ ===== -->
 <p align="center">
-  <a href="https://orvune.tech" target="_blank"><img src="https://img.shields.io/badge/website-orvune.tech-111?style=for-the-badge&logo=vercel" alt="website"/></a>
+  <a href="https://t.me/MOJEMI" target="_blank"><img src="https://img.shields.io/badge/telegram-MOJEMI-111?style=for-the-badge&logo=vercel" alt="website"/></a>
   <a href="mailto:kirillzinchenko2006@gmail.com"><img src="https://img.shields.io/badge/email-kirillzinchenko2006%40gmail.com-111?style=for-the-badge&logo=gmail" alt="email"/></a>
   <img src="https://komarev.com/ghpvc/?username=Norsaje&style=for-the-badge&color=0e75b6&label=visitors" alt="views"/>
 </p>
