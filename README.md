@@ -71,28 +71,6 @@ I build **fast** ML systems. Realtime CV and LLM tooling that behaves like produ
 
 ---
 
-## Metrics that matter
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=Norsaje&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=radical" alt="stats"/>
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Norsaje&layout=compact&langs_count=10&hide_title=true&theme=radical" alt="top-langs"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img height="170" src="https://streak-stats.demolab.com?user=Norsaje&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="streak"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Norsaje&theme=dracula&no-frame=true&no-bg=true&row=1&column=7" alt="trophies"/>
-  </a>
-</p>
-
 ## Activity
 <!-- Activity Graph -->
 <p align="center">
